@@ -3,7 +3,7 @@ module.exports = {
         config
             .plugin('html')
             .tap(args => {
-                args[0].title = 'Vincent Massey Seven Week Challenge'
+                args[0].title = 'Vincent Massey 7 Week Challenge'
                 return args
             })
     }

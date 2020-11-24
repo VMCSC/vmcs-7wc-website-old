@@ -7,8 +7,8 @@
         </div>
 
         <h3>Vincent Massey 7 Week Challenge</h3>
-        <p>The 7 Week Challenge (7WC) is a series of events <strong>coming in 2021</strong> hosted by <a :class="'expand-link' + getPageStateClass()" href="https://vmcs.club">Vincent Massey’s Computer Science Club</a> in partnership with <a :class="'expand-link' + getPageStateClass()" href="https://masseyhacks.ca">MasseyHacks</a>, Canada’s oldest and largest high school hackathon. The 7WC is an extension of MasseyHacks’s goal to <strong>inspire innovation, the development of big ideas, and a passion for learning.</strong></p>
-        <p>Interested in becoming a sponsor? Checkout our prospectus below and contact us at <a :class="'expand-link' + getPageStateClass()" href="mailto:sponsorship@masseyhacks.ca">sponsorship@masseyhacks.ca</a>.</p>
+        <p>The 7 Week Challenge (7WC) is a series of events <strong>coming in mid-2021</strong> hosted by <a :class="'expand-link' + getPageStateClass()" href="https://vmcs.club" target="_blank">Vincent Massey’s Computer Science Club</a> in partnership with <a :class="'expand-link' + getPageStateClass()" target="_blank" href="https://masseyhacks.ca">MasseyHacks</a>, Canada’s oldest and largest high school hackathon. The 7WC is an extension of MasseyHacks’s goal to <strong>inspire innovation, the development of big ideas, and a passion for learning.</strong></p>
+        <p>Interested in becoming a sponsor? Check out our prospectus below and contact us at <a :class="'expand-link' + getPageStateClass()" href="mailto:sponsorship@masseyhacks.ca">sponsorship@masseyhacks.ca</a>.</p>
         <p class="text-center social-link-collection">
           <a :class="'social-link' + getPageStateClass()" href="https://7wc-main-assets.s3.us-west-000.backblazeb2.com/7WC_Sponsorship_Prospectus.pdf"><font-awesome-icon icon="file-alt"></font-awesome-icon> Prospectus</a>
           <a :class="'social-link' + getPageStateClass()" href="https://mailchi.mp/1c450176b73f/vm7wc"><font-awesome-icon icon="paper-plane"></font-awesome-icon> Sign-Up For Updates</a>
