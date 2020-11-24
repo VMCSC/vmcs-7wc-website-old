@@ -11,7 +11,7 @@
         <p>Interested in becoming a sponsor? Check out our prospectus below and contact us at <a :class="'expand-link' + getPageStateClass()" href="mailto:sponsorship@masseyhacks.ca">sponsorship@masseyhacks.ca</a>.</p>
         <p class="text-center social-link-collection">
           <a :class="'social-link' + getPageStateClass()" href="https://7wc-main-assets.s3.us-west-000.backblazeb2.com/7WC_Sponsorship_Prospectus.pdf"><font-awesome-icon icon="file-alt"></font-awesome-icon> Prospectus</a>
-          <a :class="'social-link' + getPageStateClass()" href="https://mailchi.mp/1c450176b73f/vm7wc"><font-awesome-icon icon="paper-plane"></font-awesome-icon> Sign-Up For Updates</a>
+          <a :class="'social-link' + getPageStateClass()" href="https://www.subscribepage.com/f8r3r5"><font-awesome-icon icon="paper-plane"></font-awesome-icon> Sign-Up For Updates</a>
         </p>
       </div>
     </div>
