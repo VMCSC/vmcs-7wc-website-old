@@ -1,0 +1,135 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+html {
+  font-size: calc(0.85em + 1vw);
+  color: #212529;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0;
+}
+
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: bold;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+  transition: color 150ms ease-in;
+}
+
+a {
+  color: #212529;
+  &:hover {
+    text-decoration: none;
+    color: #6d7079;
+  }
+}
+
+/* Cool looking links */
+
+.expand-link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  &:hover {
+    color: #212529;
+  }
+  &:hover.dark-mode{
+    color: #fff;
+  }
+}
+
+.expand-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  left: -0.1em;
+  right: -0.1em;
+  background: rgba(0, 58, 140, 0.19);
+  /*transition: 380ms transform cubic-bezier(0.165, 0.84, 0.44, 1);*/
+  transition: height 380ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.expand-link.dark-mode::after{
+  background: rgba(255,255,255,0.36);
+}
+
+.expand-link:hover::after {
+  height: 45%;
+  transition: height 380ms cubic-bezier(0.32, 1.04, 0.46, 1.08);
+}
+
+.site-wrapper {
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+  transition: background-color 150ms ease-in;
+}
+
+.site-wrapper.dark-mode {
+  background-color: #212529;
+}
+
+
+.splash-wrapper {
+  padding: 5vh 0;
+  margin: 0 2em;
+  position: relative;
+
+}
+
+.vmcs-logo-wrapper {
+  position: relative;
+  height: 45vh;
+}
+
+.vmcs-logo-main {
+  height: 40vh;
+  margin-bottom: 2em;
+  position: absolute;
+  transform: translateX(-50%);
+  transition: transform 350ms ease-in;
+  cursor: pointer;
+  &:hover {
+    transform: translateX(-50%) scale(1.05);
+  }
+}
+
+.social-link-collection {
+  font-size: 0.8em;
+}
+
+.footer .social-link-collection {
+  font-size: 0.6em;
+  margin-top: 0;
+}
+
+.social-link {
+  margin: 0 1em;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.dark-mode {
+  color: #fff
+}
