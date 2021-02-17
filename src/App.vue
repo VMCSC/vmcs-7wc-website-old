@@ -20,6 +20,7 @@
       <p class="text-center social-link-collection">
         <a :class="'social-link' + getPageStateClass()" href="https://watch.vmcs.club"><font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon></a>
         <a :class="'social-link' + getPageStateClass()" href="https://github.com/VMCSC"><font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon></a>
+        <a :class="'social-link' + getPageStateClass()" href="https://medium.com/vmcsc"><font-awesome-icon :icon="['fab', 'medium']"></font-awesome-icon></a>
         <a :class="'social-link' + getPageStateClass()" href="mailto:hello@vmcs.club"><font-awesome-icon icon="envelope"></font-awesome-icon></a>
       </p>
     </div>
